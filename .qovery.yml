@@ -1,0 +1,15 @@
+---
+application:
+  name: "finance-bot"
+  project: "Cozyox4"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "Cozyox23"
+  version: "12"
+routers:
+- name: "main-finance-bot"
+  routes:
+  - application_name: "finance-bot"
+    paths:
+    - "/*"
